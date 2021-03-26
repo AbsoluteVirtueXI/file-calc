@@ -49,5 +49,5 @@ for (let i = 0; i < op1Tab.length; ++i) {
 // Convert res en string
 const resStr = res.join('\n')
 
-// Ecrire res dans RES_FILE
+// Ecrire resStr dans un fichier
 fs.writeFileSync(process.argv[5], resStr)
